@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# NEUROBIT PROJECT
+The project name is Neurobit Project(my-app), a web application that features a user-friendly dashboard that allows you to easily manage your transaction channels. With a smooth interface and intuitive montage.
+## Technologies Used
+The project was built using the following technologies:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- Material UI-
+-Router
 
-## Available Scripts
+### Getting Started
+To run this project on your local machine, please follow the instructions below:
 
-In the project directory, you can run:
+1. Download the zip file onto your local machine.Open the project directory in your terminal/command prompt.
+2. Run the command 'npm install' to install all necessary dependencies.
+3. Start the development server by running the command 'npm start'.
+4. Open your web browser and navigate to http://localhost:3000 if it does not opens automatically.
 
-### `npm start`
+### Usage
+<p>Clicking on Dashboard and Credits it will display only the AppBar<p>
+<p>Once you click on Montage, You will directed to another page (###UploadsEFD) where you have to upload your file.
+<p>And on clicking Next Button you will redirect to the next page (##Feed)<p>
+<p>Once the Feed Page is Open you can select the options as you wish to and clicking on next button there you will redirect to another page (###ChannelsMapped).<p>
+<p>On Channels mapped you can add backup channels .And at the bottom clicking on next button you will redirect to the (###Preview Page).<p>
+<p>On Preview Page you can preview your selected channels and if needed you can click on the edit button to edit the selected channels .On Clicking the Edit button you will rediret to the (###ChannelsMapped)page . Or you can Click n the save button present in the preview page.
+<p>Once you saved it,there will be no changes accepted.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contact
+If you have any questions or comments about this project, please contact **alshabehera7@gmail.com**

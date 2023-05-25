@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import SideNavbar1 from "./Components/SideNavbar1.js";
+import UploadEDF from './Components/UploadEDF';
+import Feed from "./Components/Feed.js";
+import  ChannelsMapped from "./Components/ChannelsMapped.js";
+import { Stack } from '@mui/material';
+import  SavedConfig from "./Components/SavedConfig.js";
+import PreviewConfig from "./Components/PreviewConfig"
+import {Route,Routes } from 'react-router-dom';
 
-function App() {
+export default function App() {
+ 
+  document.body.style.backgroundColor='#CDCDCD'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack direction="row" spacing={2}>
+   
+    <SideNavbar1 />
+      <Routes>
+      
+      <Route exact path='/UploadEDF' element={ <UploadEDF />} />
+       
+       
+         <Route exact path='/ChannelsMapped' element={<ChannelsMapped/>}/>
+         <Route exact path='/Feed' element={<Feed/>}/>
+         <Route exact path='/PreviewConfig' element={<PreviewConfig/>}/>
+         <Route exact path='/SavedConfig' element={<SavedConfig/>}/>
+         
+         
+      </Routes>
+  
+     </Stack>
+     
+       
+      
+   
   );
 }
 
-export default App;
+
