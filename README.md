@@ -1,5 +1,5 @@
-# NEUROBIT PROJECT
-The project name is Neurobit Project(my-app), a web application that features a user-friendly dashboard that allows you to easily manage your transaction channels. With a smooth interface and intuitive montage.
+# PROJECT
+The project name is NeuroForm Project, a web application that features a user-friendly dashboard that allows you to easily manage your transaction channels. With a smooth interface and intuitive montage.
 ## Technologies Used
 The project was built using the following technologies:
 
